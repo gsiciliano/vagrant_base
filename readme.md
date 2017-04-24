@@ -86,11 +86,9 @@ Installation and provision
 
 To start/stop machine
 ------------------------
-* To start the machine: `vagrant up`\
-(use `--provision` if you need to verify the machine is up to date with the latest infrastructure and configuration changes)
+* To start the machine: `vagrant up` (use `--provision` if you need to verify the machine is up to date with the latest infrastructure and configuration changes)
 
-* To stop the machine:\
-`vagrant halt`
+* To stop the machine: `vagrant halt`
 
 Notes
 -------
