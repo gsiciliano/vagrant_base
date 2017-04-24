@@ -63,7 +63,8 @@ Windows requirements
 
 * From cygwin terminal Install Ansible:
     
-    `easy_install-2.7 pip`\
+    `easy_install-2.7 pip`
+    
     `pip install ansible`
                 
 Installation and provision
@@ -75,7 +76,8 @@ Installation and provision
 
 * Create ssh key (with name id_rsa_vagrant) if needed:
     
-    `ssh-keygen -t rsa`\
+    `ssh-keygen -t rsa`
+    
     `cp id_rsa_vagrant.pub <repo_directory>/roles/webserver_provision/files/public-keys/.`
 
 * Go in the directory where you cloned the **vagrant_base** repository and start the machine provisioning from there. then wait until it completes.
