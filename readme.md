@@ -106,6 +106,6 @@ Feel free to add deploy configuration for your projects adding ansible tasks to 
 
 To run ansible for deploy apps use:
 
-`ansible-playbook playbook.yml -i inventory/<server-inventory> -t "deploy-zanichelli-app" -v`
+`ansible-playbook playbook.yml -i inventory/<server-inventory> -t "deploy-<appname>-app" -v`
     
-in cygwin terminal from Windows o shell terminal in Linux    
+in cygwin terminal from Windows or shell terminal in Linux    
