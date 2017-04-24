@@ -1,0 +1,12 @@
+---
+- name: install php
+  apt: name=php5 state=present
+
+- name: in dev mode make sure display_errors is ON
+  lineinfile:
+    dest: /etc/php5/apache2/php.ini
+    regexp: '^display_errors = Off'
+    line: 'display_errors = On'
+  notify:
+      - reload apache
+  when: deploy_locally

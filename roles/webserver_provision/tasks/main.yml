@@ -1,0 +1,10 @@
+---
+- include: ssh-auth-key.yml
+  tags:
+  - provision-app
+- include: apache.yml
+  tags:
+  - provision-app
+- include: php.yml
+  tags:
+   - provision-app

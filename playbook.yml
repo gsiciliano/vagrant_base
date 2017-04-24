@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become_method: sudo
+  become: true
+  vars:
+  pre_tasks:
+      #- name: update apt cache
+      #  apt: update_cache=yes
+  roles:
+    - webserver_provision

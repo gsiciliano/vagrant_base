@@ -1,0 +1,5 @@
+document_root: /srv/www/htdocs
+deploy_locally: True
+ssh_users:
+  - name: vagrant
+    key: "{{ lookup('file', 'roles/webserver_provision/files/public-keys/id_rsa_vagrant.pub') }}"
