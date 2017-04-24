@@ -1,1 +1,2 @@
 .vagrant
+/roles/webserver_provision/public-keys/*.pub
